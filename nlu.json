@@ -1,15 +1,17 @@
 {
   "project" : {
-    "id" : "git-1000001-KAc",
-    "name" : "git-1000001-KAc",
+    "id" : "el-1000001-rjh",
+    "name" : "el-1000001-rjh",
     "folder" : "/platform"
   },
   "settings" : {
     "language" : "ru",
     "spellingCorrection" : false,
     "classificationAlgorithm" : "sts",
-    "timezone" : "UTC",
+    "timezone" : "Europe/Moscow",
     "extendedSettings" : {
+      "classificationAlgorithmVersion" : 1.0,
+      "tokenizerEngine" : "mystem",
       "useShared" : false
     },
     "shared" : false,
@@ -20,7 +22,29 @@
       "answerValidationThreshold" : 0.8
     }
   },
-  "intents" : [ ],
+  "intents" : [ {
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  } ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ],
