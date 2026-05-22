@@ -1,0 +1,8 @@
+---
+key: 1000210800-fd-mpt
+credential-key: 1000210800-df-eir
+name: fd
+host: df
+port: 5060
+lines-available: 3
+accept-incoming: false
