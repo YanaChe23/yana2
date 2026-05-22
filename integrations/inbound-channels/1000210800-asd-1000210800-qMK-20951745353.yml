@@ -1,0 +1,8 @@
+---
+key: 1000210800-asd-1000210800-qMK-20951745353
+credential-key: 1000210800-tgtest-fqu
+name: Телеграм
+type: TELEGRAM
+is-auto-deploy: true
+operator-channel-key: null
+settings: null
