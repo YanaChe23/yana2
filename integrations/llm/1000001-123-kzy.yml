@@ -1,7 +1,0 @@
----
-key: 1000001-123-kzy
-credential-key: 1000001-123-fcl
-name: 123
-provider: DEEPSEEK
-model: deepseek-llm-67b-chat
-is-direct-access: true
