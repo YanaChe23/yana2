@@ -1,0 +1,14 @@
+---
+id: function_aa_aa_lxyjb
+name: 1
+position:
+  x: 707
+  y: 458
+next-step: null
+parameters:
+  type: USER
+  collection: aa
+  function: aa
+  is-tool: true
+  parameters: {}
+  context-config: null

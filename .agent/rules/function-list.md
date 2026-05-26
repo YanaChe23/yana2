@@ -180,3 +180,8 @@ For detailed info about parameters and response, read the corresponding file.
 - `Tts.synthesize` — Converts text to speech using the specified TTS integration and returns an audio URL
   Schema: .agent/system-functions/Tts/synthesize.json
 
+## User Functions
+
+- `aa.aa` — 1
+  Directory: functions/aa/aa/
+

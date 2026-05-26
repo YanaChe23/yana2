@@ -1,0 +1,9 @@
+---
+id: trigger_message_jouzd
+name: Сообщение
+position:
+  x: 367
+  y: 143
+next-step: agent_dsugt
+parameters:
+  placeholder: null
