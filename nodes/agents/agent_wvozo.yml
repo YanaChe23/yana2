@@ -6,7 +6,7 @@ position:
   y: 366
 next-step: function_context_getaccountid_rqdwu
 parameters:
-  llm-model-key: 1000001-open_ai_gpt41-qnq
+  llm-model-key: 1000001-open_ai_gpt41-utn
   llm-model-settings:
     max-tokens: 4000
     temperature: 0.6
