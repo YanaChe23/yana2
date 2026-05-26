@@ -1,0 +1,12 @@
+---
+id: c11
+name: c11
+description: c11
+response-description: 123
+parameters:
+- name: we
+  type: NUMBER
+  required: false
+  description: we
+  properties: null
+  items: null
