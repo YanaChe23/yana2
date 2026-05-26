@@ -1,8 +1,0 @@
----
-key: 1000001-custom_qwen3235ba22b-bht
-credential-key: 1000001-111-xik
-name: 'CUSTOM - Qwen3-235B-A22B-Instruct-2507-tput '
-provider: CUSTOM
-model: Qwen3-235B-A22B-Instruct-2507-tput
-is-direct-access: true
-origin-key: 1000001-custom_qwen3235ba22b-rnm

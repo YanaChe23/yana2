@@ -1,8 +1,0 @@
----
-key: 1000001-open_ai_gpt41-obe
-credential-key: 1000001-4r435-lyo
-name: OPEN_AI - gpt-4.1
-provider: OPEN_AI
-model: gpt-4.1
-is-direct-access: true
-origin-key: 1000001-open_ai_gpt41-utn

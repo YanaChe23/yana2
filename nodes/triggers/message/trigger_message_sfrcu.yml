@@ -1,9 +1,0 @@
----
-id: trigger_message_sfrcu
-name: Сообщение
-position:
-  x: 401
-  y: 427
-next-step: agent_wvozo
-parameters:
-  placeholder: null
