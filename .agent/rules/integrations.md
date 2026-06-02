@@ -10,6 +10,7 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
  `credential-key` | string | no | Reference to credential used for authentication |  |
  `key` | string | yes | Unique integration key | my-mcp-server |
  `name` | string | yes | Human-readable integration name |  |
+ `transport-type` | string | yes | Transport type |  |
  `url` | string | yes | URL of the MCP server | https://mcp.example.com |
 
 ## SMTP Integration (`integrations/smtp/`)
@@ -31,6 +32,8 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
  `credential-key` | string | no | Reference to credential used for authentication |  |
+ `custom-headers` | jsonnode | no | Custom headers for direct access LLM model |  |
+ `custom-url` | string | no | Custom URL for direct access LLM model |  |
  `is-direct-access` | boolean | yes | Whether this is a direct access (custom) LLM model |  |
  `key` | string | yes | Unique integration key | openai-gpt4 |
  `model` | string | yes | Model identifier | gpt-4 |
@@ -54,7 +57,6 @@ Unless the user explicitly asks for direct access, always use `is-direct-access:
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
  `credential-key` | string | no | Reference to credential used for authentication |  |
- `is-auto-deploy` | boolean | yes | Whether auto-deploy is enabled for this channel |  |
  `key` | string | yes | Unique channel key |  |
  `name` | string | yes | Human-readable channel name |  |
  `operator-channel-key` | string | no | Key of the linked operator channel |  |
@@ -137,4 +139,4 @@ Credentials are stored in `credentials/<group>/<key>.yml`. They contain only met
 
 - Integration and credential `key` values must be globally unique. When creating a new integration or credential, always append a short random suffix (5-6 lowercase alphanumeric characters) to the logical name. For example, use `food-db-nsubyd` instead of `food-db`, or `openai-llm-k8mxp2` instead of `openai-llm`. This prevents accidental collisions when keys are replaced during project synchronization.
 - The `key` is also used as the YAML filename (e.g. `integrations/llm/openai-llm-k8mxp2.yml`), so it must be a valid filename.
-- When referencing an integration key in code (inside `code.js` of code blocks or user functions), use the exact same key value. During project import, all old keys in code are automatically replaced with new ones, so unique keys prevent unintended replacements.
+- When referencing an integration key in code (inside `code.js`/`code.py` of code blocks or user functions), use the exact same key value. During project import, all old keys in code are automatically replaced with new ones, so unique keys prevent unintended replacements.
