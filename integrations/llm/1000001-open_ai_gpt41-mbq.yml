@@ -1,0 +1,7 @@
+---
+key: 1000001-open_ai_gpt41-mbq
+credential-key: null
+name: OPEN_AI - gpt-4.1
+provider: OPEN_AI
+model: just-ai/openai-proxy/gpt-4.1
+is-direct-access: false

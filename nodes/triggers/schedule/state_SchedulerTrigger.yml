@@ -1,0 +1,13 @@
+---
+id: state_SchedulerTrigger
+name: Планировщик
+position:
+  x: 394
+  y: 261
+next-step: state_SendNews
+parameters:
+  interval-seconds: null
+  cron: 0 0 9 * * ?
+  max-repeat-count: null
+  end-after-date: null
+  start-date-time: null

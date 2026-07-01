@@ -1,0 +1,14 @@
+---
+id: searchArticles
+name: searchArticles
+description: Найти последние статьи по нужной теме
+response-description: Функция получает релевантные статьи из Spaceflight News API
+  и возвращает их данные.
+parameters:
+- name: query
+  type: STRING
+  required: false
+  description: "Термин на английском языке, по которому нужно найти статьи"
+  properties: null
+  items: null
+language: JAVASCRIPT
