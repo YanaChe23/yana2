@@ -1,8 +1,0 @@
----
-id: sendNews
-name: sendNews
-description: Получить последние новости и составить пост
-response-description: Функция получает новости про космос за день из Spaceflight News
-  API и возвращает текст поста.
-parameters: []
-language: JAVASCRIPT
