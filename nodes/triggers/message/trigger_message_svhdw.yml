@@ -4,7 +4,7 @@ name: Сообщение
 position:
   x: 610
   y: 162
-next-step: function_sessiondb_put_gacpx
+next-step: agent_ptbho
 next-error-step: null
 parameters:
   placeholder: null
